@@ -8,6 +8,6 @@ Basic data-structure implementations (Linked List, Queue, Stack, Binary Search T
 
 -> Two Number Sum
 -> Three Number Sum
--> Smallest Difference From Two Given array elements
+-> Smallest Difference From Two Given Array Elements
 -> Move Element to end 
 
