@@ -14,6 +14,6 @@ d) Smallest Difference From Two Given Array Elements
 
 e) Move Element to End 
 
-f) Sort Sub Array roblem
+f) Sort Sub Array Problem
 
 
