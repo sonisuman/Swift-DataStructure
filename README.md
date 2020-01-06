@@ -2,9 +2,7 @@
 Basic data-structure implementations (Linked List, Queue, Stack, Binary Search Tree,  Binary Tree, Binary Search, Sorting(Selection, Insertion, Bubble),Graph) using swift.
 
 
-# Data Structure Problems 
-
-# Array Data structure
+# Array Data structure Problems
 
 a) Two Number Sum
 
