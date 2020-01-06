@@ -4,7 +4,7 @@ Basic data-structure implementations (Linked List, Queue, Stack, Binary Search T
 
 # Data Structure Problems 
 
-1) Array Data structure
+# Array Data structure
 
 a) Two Number Sum
 
