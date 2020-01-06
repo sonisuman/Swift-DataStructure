@@ -12,6 +12,8 @@ c) Four Number Sum
 
 d) Smallest Difference From Two Given Array Elements
 
-e) Move Element to end 
+e) Move Element to End 
+
+f) Sort Sub Array roblem
 
 
