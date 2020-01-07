@@ -16,6 +16,8 @@ e) Move Element to End
 
 f) Sort Sub Array Problem
 
-g) Largest Range Problems
+g) Largest Range Problem
+
+h) Zig Zag Traverse Problem
 
 
