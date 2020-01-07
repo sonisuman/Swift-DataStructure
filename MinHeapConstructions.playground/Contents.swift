@@ -11,10 +11,10 @@ class MinHeap {
             var endIndex = array.count - 1
             siftDown(&currentIndex, &endIndex, &array)
         }
-       return array
+        return array
     }
     func siftDown(_ currentIndex: inout Int, _ endIndex: inout Int, _ heap: inout [Int]) {
-       var firstChildIndex = (2 * currentIndex) + 1
+        var firstChildIndex = (2 * currentIndex) + 1
         while firstChildIndex < endIndex {
             var secondChildIndex = -1
             let potentialSecondChild = (2 * currentIndex) + 2
@@ -28,7 +28,7 @@ class MinHeap {
                 indexToSwap = firstChildIndex
             }
             if heap[indexToSwap] < heap[currentIndex] {
-               swap(currentIndex, indexToSwap, heap: &heap)
+                swap(currentIndex, indexToSwap, heap: &heap)
                 currentIndex = indexToSwap
                 firstChildIndex = (2 * currentIndex) + 1
             }
@@ -38,7 +38,7 @@ class MinHeap {
         }
     }
     func siftUp(_ currentIndex: inout Int, heap: inout [Int]) {
-       var parentIndex = Double((currentIndex - 1) / 2)
+        var parentIndex = Double((currentIndex - 1) / 2)
         parentIndex = parentIndex.rounded(.down)
         while currentIndex > 0, heap[currentIndex] < heap[Int(parentIndex)] {
             swap(currentIndex, Int(parentIndex), heap: &heap)
