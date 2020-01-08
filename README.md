@@ -1,5 +1,3 @@
-# Swift Data-Structure
-
 # Basic data-structure implementations Using Swift
 
 a) Linked List
