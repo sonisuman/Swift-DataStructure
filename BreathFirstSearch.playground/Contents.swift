@@ -1,22 +1,24 @@
 class Node {
     var name: String
-    var childern: [Node]
+    var children: [Node]
     init(name: String) {
         self.name = name
-        self.childern = []
+        self.children = []
     }
-    func addChild(name: String) {
+    func addChild(name: String) -> Node  {
         let node = Node(name: name)
-        childern.append(node)
+        children.append(node)
+        return self
     }
     
     func breathFirstSearch(array: inout [String]) -> [String] {
         var queue = [self]
-        let currentNode = queue.removeFirst()
-        array.append(currentNode.name)
-        
-        for child in currentNode.childern {
-            queue.append(child)
+        while queue.count > 0 {
+            let currentNode = queue.removeFirst()
+            array.append(currentNode.name)
+            for child in currentNode.children {
+                queue.append(child)
+            }
         }
         return array
     }
