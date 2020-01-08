@@ -49,4 +49,6 @@ d) Quick Sort
 
 e) Heap Sort 
 
+f) Merge Sort
+
 
