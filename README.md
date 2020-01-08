@@ -1,5 +1,16 @@
-# Swift Data-Structure
-Basic data-structure implementations (Linked List, Queue, Stack, Binary Search Tree,  Binary Tree, Binary Search, Sorting(Selection, Insertion, Bubble),Graph) using swift.
+# Basic data-structure implementations Using Swift
+
+a) Linked List
+
+b) Queue, Stack 
+
+c) Binary Search Tree
+
+d) Binary Tree,
+
+e) Binary Search
+
+f) Graph 
 
 
 # Array Data structure Problems
@@ -31,5 +42,11 @@ a) Closest value problem
 a) Bubble Sort
 
 b) Insertion Sort
+
+c) Selection Sort
+
+d) Quick Sort
+
+e) Heap Sort 
 
 
